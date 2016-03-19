@@ -232,7 +232,7 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {160890821(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v4
 An advanced administration bot based on TG-CLI written in Lua
@@ -240,11 +240,8 @@ An advanced administration bot based on TG-CLI written in Lua
 https://github.com/SEEDTEAM/TeleSeed
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
+@MR_saf سازنده
+@Aryanes81 ادمین 
 
 Special thanks to
 awkward_potato
@@ -253,11 +250,10 @@ topkecleon
 Vamptacus
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+@Telesafch
 
-Our website 
-http://teleseed.seedteam.org/
+
+
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -341,6 +337,9 @@ This command will send text to [group_id]
 *Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only admins and sudo can use res, setowner, commands
+
+@MR_saf سازنده
+
 ]],
     help_text = [[
 Commands list :
@@ -612,6 +611,7 @@ Returns group logs
 
 *Only owner can use res, setowner, promote, demote, and log commands
 
+@MR_saf سازنده
 ]],
   }
   serialize_to_file(config, './data/config.lua')
